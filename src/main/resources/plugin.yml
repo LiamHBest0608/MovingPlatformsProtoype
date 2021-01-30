@@ -4,3 +4,10 @@ main: me.liamhbest.MovingPlatforms
 api-version: 1.16
 authors: [ LiamHBest ]
 description: A moving platforms prototype for Hexilion Games, Dungeouns.
+
+commands:
+  platform:
+    aliases:
+      - movingplatform
+    permission: movingplatforms.admin
+    description: Access the platform command to create, manage and remove platforms.
