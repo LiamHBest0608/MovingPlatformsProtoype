@@ -41,9 +41,7 @@ public final class MovingPlatforms extends JavaPlugin {
         PluginManager manager = getServer().getPluginManager();
     }
 
-    public void commands(){
-
-    }
+    public void commands(){ }
 }
 
 
