@@ -1,5 +1,6 @@
 package me.liamhbest;
 
+import me.liamhbest.commands.PlatformCommand;
 import me.liamhbest.data.PlatformsData;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
@@ -41,7 +42,9 @@ public final class MovingPlatforms extends JavaPlugin {
         PluginManager manager = getServer().getPluginManager();
     }
 
-    public void commands(){ }
+    public void commands(){
+        getCommand("platform").setExecutor(new PlatformCommand(this));
+    }
 }
 
 
